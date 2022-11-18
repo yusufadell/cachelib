@@ -25,3 +25,9 @@ class BaseCache:
         return {}
 
 
+class NullCache(BaseCache):
+    """A cache that doesn't cache.  This can be useful for unit testing.
+    """
+
+    def has(self, key):
+        return False
