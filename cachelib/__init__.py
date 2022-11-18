@@ -1,6 +1,6 @@
 """Top-level package for cachelib."""
-
-from cachelib.base import BaseCache, NullCache
+from cachelib.base import BaseCache
+from cachelib.base import NullCache
 
 __all__ = [
     "BaseCache",
