@@ -26,7 +26,13 @@ A collection of cache libraries in the same API interface.
 Features
 --------
 
-* TODO
+    -[ ] BaseCache  - Base class for all cache implementations
+    -[ ] NullCache - A cache that does nothing
+    -[ ] SimpleCache - A simple in-memory cache
+    -[ ] FileSystemCache - A cache that stores data on the filesystem
+    -[ ] MemcachedCache - A cache that stores data in memcached
+    -[ ] RedisCache - A cache that stores data in redis
+    -[ ] UWSGICache - A cache that stores data in uwsgi
 
 Credits
 -------
